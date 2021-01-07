@@ -12,3 +12,8 @@ It should generate the code specified by the .yaml file. Instead, it gives the f
 
 The trouble with this message is that inputSpec is defined correctly. It points to a properly formatted .yaml file that uses the OpenAPI 3.0.0 spec.
 
+### Notes
+
+1. The pom.xml file's build section has several openApi options commented out. It fails with or without them.
+
+2. I tried with both the spring generator and the java generator, but they both gave me the same error.
