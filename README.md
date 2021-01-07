@@ -17,3 +17,5 @@ The trouble with this message is that inputSpec is defined correctly. It points 
 1. The pom.xml file's build section has several openApi options commented out. It fails with or without them.
 
 2. I tried with both the spring generator and the java generator, but they both gave me the same error.
+
+3. If there's a problem with my code, the error message should be improved. I have no idea what the problem is.
