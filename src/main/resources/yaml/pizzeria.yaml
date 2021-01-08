@@ -13,8 +13,8 @@
     }
   },
   servers:
-    - url: http://localhost:8080/
-    - url: http://pizzeria/,
+    - url: http://localhost:8080/v1
+    - url: http://pizzeria/v1,
   paths: {
   "/menuItem": {
     "get": {
